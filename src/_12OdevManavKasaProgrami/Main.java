@@ -41,9 +41,13 @@ public class Main {
         System.out.println("Patlıcan Kaç Kilo ?");
         double pK=scanner.nextDouble();
         double total=(a*aK)+(e*eK)+(d*dK)+(m*mK)+(p*pK);
-        if(total%10<=1){
+        if(total<0){
+            System.out.println("Şu aralar sıkışığım :D");
+        }
+        else if(total%10<=1){
             System.out.println("Toplam Tutar :"+(total)+"\n"+(total-1)+" versen yeter abi");
-        }else{
+        }
+        else{
         System.out.println("Toplam Tutar :"+total+"\n Yine Bekleriz.");
         }
     }
