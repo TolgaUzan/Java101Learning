@@ -42,9 +42,12 @@ public class Main {
         muzik=scanner.nextInt();
         double ortalama=(matematik+fizik+kimya+turkce+tarih+muzik)/6;
 
+        boolean gectiMi=(ortalama>60);
+        String sonuc= gectiMi ? "Sınıfı Geçtiniz" : "Sınıfta Kaldınız.";
 
 
         System.out.println("Ortalamanız :"+ortalama);
+        System.out.println(sonuc);
 
 
 
