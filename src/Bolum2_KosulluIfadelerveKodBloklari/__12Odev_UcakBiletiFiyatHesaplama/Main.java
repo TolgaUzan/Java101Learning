@@ -25,11 +25,6 @@ public class Main {
 
          */
 
-
-        double indirim12 = 0.5;
-        double indirim1224 = 0.2;
-        double indirim65 = 0.3;
-        double indirimGd = 0.2;
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("\t***********Uçak bileti fiyatı hesaplama..***********\n\n");
