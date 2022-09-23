@@ -1,4 +1,4 @@
-package _6OrnekNotOrtalama;
+package Bolum1_TemelKavramlarveDegiskenler._6OrnekNotOrtalama;
 
 import java.util.Scanner;
 

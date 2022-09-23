@@ -1,6 +1,5 @@
-package _7OdevKdvHesaplama;
+package Bolum1_TemelKavramlarveDegiskenler._7OdevKdvHesaplama;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {

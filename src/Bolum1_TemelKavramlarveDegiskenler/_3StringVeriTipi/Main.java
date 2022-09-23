@@ -1,4 +1,4 @@
-package _3StringVeriTipi;
+package Bolum1_TemelKavramlarveDegiskenler._3StringVeriTipi;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _11VicutKitleIndeksiHesaplama;
+package Bolum1_TemelKavramlarveDegiskenler._11VicutKitleIndeksiHesaplama;
 
 import java.util.Scanner;
 

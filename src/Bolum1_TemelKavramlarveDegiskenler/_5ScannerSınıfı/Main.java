@@ -1,4 +1,4 @@
-package _5ScannerSınıfı;
+package Bolum1_TemelKavramlarveDegiskenler._5ScannerSınıfı;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package _2VariablesDegiskenler;
+package Bolum1_TemelKavramlarveDegiskenler._2VariablesDegiskenler;
 
 public class Main {
     //Ders 2

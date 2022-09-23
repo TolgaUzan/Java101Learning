@@ -1,4 +1,4 @@
-package _4TemelOperatorler;
+package Bolum1_TemelKavramlarveDegiskenler._4TemelOperatorler;
 
 public class Main {
     public static void main(String[] args) {

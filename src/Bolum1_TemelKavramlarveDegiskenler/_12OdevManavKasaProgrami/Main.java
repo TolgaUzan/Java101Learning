@@ -1,6 +1,5 @@
-package _12OdevManavKasaProgrami;
+package Bolum1_TemelKavramlarveDegiskenler._12OdevManavKasaProgrami;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {

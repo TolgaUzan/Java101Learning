@@ -1,4 +1,4 @@
-package _9OdevTaksimetreHesaplama;
+package Bolum1_TemelKavramlarveDegiskenler._9OdevTaksimetreHesaplama;
 
 import java.util.Scanner;
 

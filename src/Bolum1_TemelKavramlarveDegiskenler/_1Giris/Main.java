@@ -1,4 +1,4 @@
-package _1Giris;
+package Bolum1_TemelKavramlarveDegiskenler._1Giris;
 
 public class Main {
     //Java Sıfırdan Dersler Giriş..

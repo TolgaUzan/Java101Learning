@@ -1,4 +1,4 @@
-package _10OdevDaireAlanveCevreHesapla;
+package Bolum1_TemelKavramlarveDegiskenler._10OdevDaireAlanveCevreHesapla;
 
 import java.util.Scanner;
 

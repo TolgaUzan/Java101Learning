@@ -1,4 +1,4 @@
-package _8OdevHipotenusBulma;
+package Bolum1_TemelKavramlarveDegiskenler._8OdevHipotenusBulma;
 
 import java.util.Scanner;
 
