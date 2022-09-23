@@ -150,12 +150,12 @@ public class Main {
                 isError = true;
             }
         }else{
-            System.out.println("Geçersiz ay girdiniz.");
+            isError=true;
         }
 
 
         if(isError){
-            System.out.println("Hatalı gün girdiniz.");
+            System.out.println("Hatalı giris yaptınız");
         }
 
 
