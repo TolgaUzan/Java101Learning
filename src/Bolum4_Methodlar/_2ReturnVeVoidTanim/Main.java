@@ -11,6 +11,7 @@ public class Main {
     static void selamVervoid(){
         System.out.println("Merhaba void");
     }
+
     public static void main(String[] args) {
 
         //Return anahtar kelimesi ile deger donduren bir method
