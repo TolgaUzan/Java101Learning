@@ -18,6 +18,7 @@ public class Fighter {
         }
     }
 
+
     public int hit(Fighter foe) {
         System.out.println("------------");
         System.out.println(this.name + " => " + foe.name + " " +  this.damage + " hasar vurdu.");

@@ -1,5 +1,7 @@
 package Bolum6_Siniflar_Classes._5Pratik_BoksOyunu;
 
+import java.util.Random;
+
 public class Ring {
     Fighter f1;
     Fighter f2;
@@ -13,18 +15,28 @@ public class Ring {
         this.maxWeight = maxWeight;
     }
 
+    public int randomStart(){
+        Random random=new Random();
+        int r=random.nextInt(2);
+        return r;
+    }
     public void run() {
 
+
         if (checkWeight()) {
+
             while (f1.health > 0 && f2.health > 0) {
                 System.out.println("======== YENİ ROUND ===========");
-                f2.health = f1.hit(f2);
-                if (isWin()){
-                    break;
-                }
-                f1.health = f2.hit(f1);
-                if (isWin()){
-                    break;
+                if(randomStart()==1){
+                    f2.health = f1.hit(f2);
+                    if (isWin()){
+                        break;
+                    }
+                }else{
+                    f1.health = f2.hit(f1);
+                    if (isWin()){
+                        break;
+                    }
                 }
                 printScore();
             }
