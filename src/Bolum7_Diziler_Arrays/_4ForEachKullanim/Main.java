@@ -43,6 +43,20 @@ public class Main {
             System.out.println(s);
         }//ŞEKLİNDE KULLANIMI MEVCUT .
 
+        int[][] matris = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+        for (int[]row:matris) {
+            for (int col:row) {
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+
+
+
         //gibi kullanabiliriz
         //Not : Collectionframework hiyerarşisinde Iterable Interface 'i ile ilişkisi olanları
         //Bu şekişde sıralayabiliyoruz
