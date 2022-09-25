@@ -45,6 +45,16 @@ J       ava ile iki sayının EBOB ve EKOK değerlerini "While Döngüsü" kulla
             i++;
         }
         System.out.println("En büyük ortak bölen :"+ebob);
+
+        /*//Ekok While
+        int j=1;
+        while(j<=(sayi1*sayi2)){
+            if(j % sayi1 ==0 && j%sayi2 ==0){
+                System.out.println("EKOK :"+j);
+                break;
+            }
+            j++;
+        }*/
         ekok=(sayi1*sayi2)/ebob;
         System.out.println("En küçük ortak bölen :"+ekok);
 
