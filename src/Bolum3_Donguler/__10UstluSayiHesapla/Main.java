@@ -18,7 +18,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int sayi,ussu;
-        System.out.println("Üssü alınacak sayı ;");
+        System.out.println("Üsü alınacak sayı ;");
         sayi = scanner.nextInt();
         System.out.println("Üs sayi ; ");
         ussu = scanner.nextInt();
