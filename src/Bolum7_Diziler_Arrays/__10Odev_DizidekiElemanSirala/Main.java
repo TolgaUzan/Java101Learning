@@ -34,7 +34,8 @@ Sıralama : -1 0 22 254 999 1000221
 
         int[] dizi=new int[10];
         Scanner scanner=new Scanner(System.in);
-        System.out.println("10 Tane sayı giriniz Enter Please ;");
+        System.out.println("Başlamak için Enter Please ;\n");
+        System.out.println("10 Tane sayı giriniz ");
         scanner.next();
         long baslangic = System.currentTimeMillis();
         for(int i=0;i<10;i++){
